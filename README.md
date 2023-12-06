@@ -44,3 +44,4 @@ It might take 2-3 minutes for the first booting sequence to complete.
 Make sure your computer is connected to the same WiFi as the one you setup in the Raspberry Pi Imager.
 
 Open up a RNBO project and open the Export Sidebar. If everything worked, you should see your Raspberry Pi as an option under "Devices."
+![Flash warning](./img/export-devices.png)
