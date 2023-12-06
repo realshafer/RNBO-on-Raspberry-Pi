@@ -11,3 +11,4 @@ Click "Choose OS," scroll to the bottom and click "Use custom," and then select 
 ![Choose the RNBO Image File](./img/os-choose.png)
 Click "Choose Storage" and select your MicroSD card.
 Click "Next."
+![Customize Settings](./img/custom-settings1.png)
