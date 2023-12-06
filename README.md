@@ -1,5 +1,6 @@
 # What you need to get started
 - Raspberry Pi (version 3 or 4) + power + MicroSD card
+- Class-compliant audio interface 
 - [Raspberry Pi Imager](https://github.com/raspberrypi/rpi-imager/releases)
 - [RNBO Image File](https://rnbo.cycling74.com/resources) - this is a RNBO-ready version of Debian 11 that will run on the Raspberry Pi
 
@@ -23,3 +24,14 @@ It is important to not change the hostname. It is also important to set the user
 
 Go to the "Services" tab. Enable SSH with password authentication. Click "Save."
 ![Customize Settings - Services](./img/custom-settings-services.png)
+
+Back at the "Use OS Customisation" menu, choose "Yes."
+
+You'll get a warning that the MicroSD card will be completely erased when the new image is flashed. Click "Yes" to continue.
+![Flash warning](./img/flash-warning.png)
+
+The flashing process will begin and take 5-10 minutes to write and verify. When it is complete, you'll get a pop-up notice that the drive is flashed and ready to use.
+
+Eject the MicroSD from the computer and insert it into the Raspberry Pi.
+
+# Setting up and booting the Raspberry Pi
