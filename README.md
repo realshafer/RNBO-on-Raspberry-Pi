@@ -2,7 +2,8 @@
 - Raspberry Pi (version 3 or 4) + power + MicroSD card
 - Class-compliant audio interface 
 - [Raspberry Pi Imager](https://github.com/raspberrypi/rpi-imager/releases)
-- [RNBO Image File](https://rnbo.cycling74.com/resources) - this is a RNBO-ready version of Debian 11 that will run on the Raspberry Pi
+- [RNBO Image File](https://rnbo.cycling74.com/resources) - get the latest version, this is a RNBO-ready version of Debian 11 that will run on the Raspberry Pi
+- [Max/RNBO](https://rnbo.cycling74.com/) - make sure you have the latest version
 
 # Flashing the OS
 Insert your MicroSD card into your computer and open the [Raspberry Pi Imager](https://github.com/raspberrypi/rpi-imager/releases).
@@ -45,6 +46,15 @@ Make sure your computer is connected to the same WiFi as the one you setup in th
 
 Open up a RNBO project and open the Export Sidebar. If everything worked, you should see your Raspberry Pi as an option under "Devices."
 ![Export - Devices](./img/export-devices.png)
+
 (If you don't see your Raspberry Pi, there's a couple reasons what might be happening. In order to solve, see the SSH section below.)
 
+Click on your device to open the target export settings menu. You may see a prompt at the top of the screen to update your RNBO version; if so, do that.
 
+The most crucial items in the settings are:
+- Audio interface: set this to your connected audio interface, either over USB or attached as a hat
+- Audio interface settings (ie. Sample Rate, Frames, Periods): adjust these settings to optimize performance as needed
+- Patch name: give your code a unique name that you can refer to later
+
+When set, click the bottom-right icon to export and compile on the Raspberry Pi.
+![Export - Menu](./img/export-menu.png)
