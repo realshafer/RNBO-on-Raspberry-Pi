@@ -22,4 +22,4 @@ Under the General tab, use these settings:
 It is important to not change the hostname. It is also important to set the username to "pi." Choose a password that you'll remember. If you opted to not have MacOS pre-fill your WiFi name/password, manually enter that here. Finally, set your locale to optimize the WiFi communication.
 
 Go to the "Services" tab. Enable SSH with password authentication. Click "Save."
-![Customize Settings - Services](./img/custom-settings-general.png)
+![Customize Settings - Services](./img/custom-settings-services.png)
