@@ -11,4 +11,10 @@ Click "Choose OS," scroll to the bottom and click "Use custom," and then select 
 ![Choose the RNBO Image File](./img/os-choose.png)
 Click "Choose Storage" and select your MicroSD card.
 Click "Next."
-![Customize Settings](./img/custom-settings1.png)
+Choose "Edit Settings." (If MacOS asks to pre-fill your Wifi password, you can either choose to do that or manually enter the WiFi information yourself.)
+![Customize Settings](./img/custom-settings.png)
+Under the General tab, use these settings:
+![Customize Settings - General](./img/custom-settings-general.png)
+It is important to not change the hostname. It is also important to set the username to "pi." Choose a password that you'll remember. If you opted to not have MacOS pre-fill your WiFi name/password, manually enter that here. Finally, set your locale to optimize the WiFi communication.
+Go to the "Services" tab. Enable SSH with password authentication. Click "Save."
+![Customize Settings - Services](./img/custom-settings-general.png)
