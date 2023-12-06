@@ -5,3 +5,6 @@
 
 # Flashing the OS
 Insert your MicroSD card into your computer and open the [Raspberry Pi Imager](https://github.com/raspberrypi/rpi-imager/releases).
+![Raspberry Pi Imager](./img/pi-imager.png)
+
+![Choose the RNBO Image File](./img/os-choose.png)
