@@ -35,3 +35,12 @@ The flashing process will begin and take 5-10 minutes to write and verify. When 
 Eject the MicroSD from the computer and insert it into the Raspberry Pi.
 
 # Setting up and booting the Raspberry Pi
+Before connecting power to the Raspberry Pi, connect your class-compliant audio interface via USB. Alternatively, you can use a [Raspberry Pi audio hat](https://www.google.com/search?q=raspberry+pi+audio+hat).
+
+Connect power to the Raspberry Pi. The red LED indicates power. The flash green LED indicates that the computer is reading from the MicroSD.
+
+It might take 2-3 minutes for the first booting sequence to complete.
+
+Make sure your computer is connected to the same WiFi as the one you setup in the Raspberry Pi Imager.
+
+Open up a RNBO project and open the Export Sidebar. If everything worked, you should see your Raspberry Pi as an option under "Devices."
