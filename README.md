@@ -1,1 +1,1 @@
-# RNBO-on-Raspberry-Pi
+# Setting up RNBO on a Raspberry Pi
