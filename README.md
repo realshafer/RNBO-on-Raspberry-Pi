@@ -1,3 +1,5 @@
+The following tutorial is based on [Cycling'74's RNBO Raspberry Pi Target documentation](https://rnbo.cycling74.com/learn/raspberry-pi-target-overview). I have simplified the information and added images to streamline the process.
+
 # What you need to get started
 - Raspberry Pi (version 3 or 4) + power + MicroSD card
 - Class-compliant audio interface 
