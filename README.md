@@ -82,4 +82,17 @@ Make audio connections with your audio interface and audition your RNBO patch on
 See [Cycling'74's FAQ](https://rnbo.cycling74.com/learn/working-with-the-raspberry-pi-target) for more potential solutions.
 
 # SSH (additional configuration and troubleshooting)
+SSH (Secure Shell) is a protocol to use the terminal of one computer to access and control another computer. In this case, we will use our computer to access the Raspberry Pi. On MacOS, open the Terminal app. On Windows, use an SSH client like [PuTTY](https://www.putty.org/) or [OpenSSH](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_overview).
 
+## Logging in via SSH
+In your terminal, type the follow:
+
+```sh
+ssh pi@c74rpi.local
+```
+Enter the password you set for the Raspberry Pi. If everything goes well, it will connect and look similar to this:
+
+![ssh - you're in](./img/ssh-youre-in.png)
+
+## Changing the host name
+If you're using multiple Raspberry Pi's running RNBO on the same network, you'll want to give them different names so there's no conflicts.
