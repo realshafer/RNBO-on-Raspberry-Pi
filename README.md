@@ -111,7 +111,7 @@ Change the hostname, for instance, to ```c74rpi-yourinitials```.
 
 After confirming the change, the Raspberry Pi will need to restart.
 
-In order to SSH into the Pi now, you will need to address it by its new host name, for example:
+In order to SSH into the Pi now, you will need to address it by its new hostname, for example:
 
 ```sh
 ssh pi@c74rpi-yourinitials.local
@@ -125,7 +125,7 @@ First, you must know the IP address of the Raspberry Pi, and to do that we need 
 ```sh
 ifconfig
 ```
-This will return information about the Wifi and Ethernet adapters including the IP address. Look for the keyword "inet" to find the IP address. For example:
+This will return information about the Wifi and Ethernet adapters including the IP address. Look for the keyword "inet" to find the IP address. In this example, the IP address is 192.168.0.15:
 
 ![ssh - ifconfig](./img/ssh-ifconfig.png)
 
