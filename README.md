@@ -96,3 +96,37 @@ Enter the password you set for the Raspberry Pi. If everything goes well, it wil
 
 ## Changing the host name
 If you're using multiple Raspberry Pi's running RNBO on the same network, you'll want to give them different names so there's no conflicts.
+
+After successfully connecting via SSH, run the following command:
+
+```sh
+sudo raspi-config
+```
+
+This should launch a configuration menu. Choose "System Options" and then "Hostname."
+
+![ssh - raspi-config](./img/ssh-raspi-config.png)
+
+Change the hostname, for instance, to ```c74rpi-yourinitials```.
+
+After confirming the change, the Raspberry Pi will need to restart.
+
+In order to SSH into the Pi now, you will need to address it by its new host name, for example:
+
+```sh
+ssh pi@c74rpi-yourinitials.local
+```
+
+## Connecting via IP address
+If you're struggling to get the Raspberry Pi to show up in the Export Sidebar in RNBO, you can also manually enter the IP address to find it.
+
+First, you must know the IP address of the Raspberry Pi, and to do that we need to access the Pi via SSH. Once you're in, enter the following command:
+
+```sh
+ifconfig
+```
+This will return information about the Wifi and Ethernet adapters including the IP address. Look for the keyword "inet" to find the IP address. For example:
+
+![ssh - ifconfig](./img/ssh-ifconfig.png)
+
+In RNBO's Export Sidebar, click "Add" and type in the IP address of the Raspberry Pi. Then, proceed to export your code as described above.
